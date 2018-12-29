@@ -13,7 +13,12 @@ public class UserController {
 	
 	@Reference
 	private UserService userService;
-	
+	/**
+	 * 
+	* @Title: getName 
+	* @Description: TODO 
+	* @return String
+	 */
 	@RequestMapping("/getName.do")
 	@ResponseBody
 	public String  getName() {
