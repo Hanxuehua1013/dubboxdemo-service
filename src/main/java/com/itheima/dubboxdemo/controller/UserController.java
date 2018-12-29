@@ -12,7 +12,7 @@ import com.itheima.dubboxdemo.service.UserService;
 public class UserController {
 	
 	@Reference
-	private UserService userService;
+	private UserService userService; // 远程注入用户服务
 	/**
 	 * 
 	* @Title: getName 
