@@ -11,7 +11,7 @@ import com.itheima.dubboxdemo.service.UserService;
 @RequestMapping("/user")
 public class UserController {
 
-	@Reference
+	@Reference(timeout=200,mock="true")
 	private UserService userService; // 远程注入用户服务
 
 	/**
